@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+
+"""
+no terminal executar: python -m pip install --upgrade pip
+"""
