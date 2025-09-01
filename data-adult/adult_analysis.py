@@ -15,7 +15,8 @@ col_names = [
     'occupation', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss',
     'hours-per-week', 'native-country', 'income'
 ]
-df = pd.read_csv('adult.csv', header=None, names=col_names, na_values='?')
+csv_path = os.path.join(os.path.dirname(__file__), 'adult.csv')
+df = pd.read_csv(csv_path, header=None, names=col_names, na_values='?')
 
 # 2. Pré-processamento
 # Inspecionar valores ausentes
