@@ -12,7 +12,6 @@ TC-data-pipeline/
 ├── data-titanic/
 │   ├── titanic_analysis.ipynb
 │   └── Titanic-Dataset.csv
-├── requirements.txt
 ├── README.md
 └── LICENSE
 ```
@@ -32,8 +31,11 @@ Este projeto tem como objetivo realizar a análise exploratória, tratamento de 
 
 ## Como executar
 
-1. Clone o repositório:
-2. Instale as dependências:
+1. Clone o repositório
+2. Instale manualmente as dependências necessárias:
+   ```
+   pip install pandas numpy matplotlib seaborn scikit-learn
+   ```
 3. Abra os notebooks `adult_analysis.ipynb` e `titanic_analysis.ipynb` no Jupyter ou VS Code e execute as células.
 
 ## Requisitos
