@@ -33,10 +33,12 @@ Este projeto tem como objetivo realizar a análise exploratória, tratamento de 
 
 1. Clone o repositório
 2. Instale manualmente as dependências necessárias:
+   
    ```
    pip install pandas numpy matplotlib seaborn scikit-learn
    ```
-3. Abra os notebooks `adult_analysis.ipynb` e `titanic_analysis.ipynb` no Jupyter ou VS Code e execute as células.
+   
+4. Abra os notebooks `adult_analysis.ipynb` e `titanic_analysis.ipynb` no Jupyter ou VS Code e execute as células.
 
 ## Requisitos
 
